@@ -1,4 +1,5 @@
-import 'package:at_fit/Screens/NavigationTabs.dart';
+import 'file:///E:/Android/Flutter_Projects/at_Fit%20APP/at_fit/lib/Screens/myScreens/NavigationTabs.dart';
+import 'package:at_fit/utills/constants.dart';
 import 'package:flutter/material.dart';
 
 void main() {

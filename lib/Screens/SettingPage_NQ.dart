@@ -1,10 +1,8 @@
-
 import 'package:animated_theme_switcher/animated_theme_switcher.dart';
 import 'package:at_fit/Screens/aboutPageItems.dart';
 import 'package:at_fit/Screens/profilePage.dart';
 import 'package:at_fit/utills/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 
 class ProfileScreen extends StatelessWidget {

@@ -143,7 +143,7 @@ class _CircularProgressStateState extends State<CircularProgressState>
         Container(
           width: size.width * 0.5,
           height: 30,
-          child: RaisedButton(
+          child: MaterialButton(
             onPressed: () {
               setState(() {
                 if (startProgress == numbers.length) {

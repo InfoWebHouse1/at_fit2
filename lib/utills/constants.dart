@@ -1,23 +1,42 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
+//todo: spacing
 const kSpacingUnit = 10.0;
-
+//todo: version control
+const String version = "1.0.1";
+//todo: colors
+const backgroundColor = Color.fromRGBO(255, 155, 49,1);
+const T_Color = Colors.transparent;
+const ScreenBackgroundColor = Colors.black;
+const IconColor = Colors.black;
 const kDarkPrimaryColor = Color(0xFF212121);
 const kDarkSecondaryColor = Color(0xFF373737);
 const kLightPrimaryColor = Color(0xFFFFFFFF);
 const kLightSecondaryColor = Color(0xFFF3F7FB);
 const kAccentColor = Color(0xFFFFC107);
 
-final kTitleTextStyle = TextStyle(
-  fontSize: 17.0,//ScreenUtil().setSp(kSpacingUnit.w * 1.7),
+
+//todo: TextStyles
+const kTitleTextStyle = TextStyle(
+  color: Colors.black,
+  fontSize: 17.0,
   fontWeight: FontWeight.w600,
 );
-
-final kCaptionTextStyle = TextStyle(
-  fontSize: 13.0,//ScreenUtil().setSp(kSpacingUnit.w * 1.3),
-  fontWeight: FontWeight.w100,
+const kFieldValueTextStyle = TextStyle(
+  color: Colors.black,
+  fontSize: 15.5,
+  fontWeight: FontWeight.normal,
 );
+
+const kCaptionTextStyle = TextStyle(
+  color: backgroundColor,
+  fontSize: 16.5,
+  fontWeight: FontWeight.bold,
+);
+
+
+
+
 
 final kButtonTextStyle = TextStyle(
   fontSize: 15.9,//ScreenUtil().setSp(kSpacingUnit.w * 1.5),
